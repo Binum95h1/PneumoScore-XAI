@@ -1,0 +1,5 @@
+model,repeat,n_images,seconds,ms_per_image,images_per_second,scope
+resnet18,1,1028,6.399459509999986,6.225155165369636,160.63856617791185,"disk read + exif/grayscale/pad/normalize + DataLoader + H2D + forward + D2H; warmed cache, two alternating-order passes"
+ensemble_50_50,1,1028,6.538008348999995,6.359930300583652,157.23442753896686,"disk read + exif/grayscale/pad/normalize + DataLoader + H2D + forward + D2H; warmed cache, two alternating-order passes"
+ensemble_50_50,2,1028,6.4290344780000055,6.253924589494169,159.89959355760033,"disk read + exif/grayscale/pad/normalize + DataLoader + H2D + forward + D2H; warmed cache, two alternating-order passes"
+resnet18,2,1028,6.416712035000046,6.241937777237399,160.20665948429033,"disk read + exif/grayscale/pad/normalize + DataLoader + H2D + forward + D2H; warmed cache, two alternating-order passes"

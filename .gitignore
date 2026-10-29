@@ -1,0 +1,29 @@
+# Competition and medical image datasets
+data/
+datasets/
+train/
+val/
+validation/
+test/
+**/Dataset_phoi/
+**/Dataset_phổi/
+# Model checkpoints
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.onnx
+# Generated private prediction files and outputs
+submission_outputs/
+private_outputs/
+previous_runs/
+**/test_predictions*.csv
+team*.csv
+# Credentials and runtime files
+.env
+.env.*
+**/kaggle.json
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/

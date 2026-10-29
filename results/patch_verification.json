@@ -1,0 +1,107 @@
+{
+  "status": "passed",
+  "source_model_sha256": "d8055289142df2493d3f0e573e3e1420d2626ba7e7b64b8d05a14646497c9032",
+  "architecture_weights_threshold_unchanged": true,
+  "original_validation": {
+    "n": 1028,
+    "max_probability_error": 2.220446049250313e-16,
+    "changed_labels": 0,
+    "metrics": {
+      "threshold": 0.55,
+      "Accuracy": 0.9815175097276264,
+      "Sensitivity": 0.9908735332464146,
+      "Specificity": 0.9540229885057471,
+      "F1": 0.9876543209876543,
+      "P": 0.9798918141779546,
+      "TN": 249,
+      "FP": 12,
+      "FN": 7,
+      "TP": 760
+    }
+  },
+  "tests": {
+    "tensor_bytes_exactly_preserved": true,
+    "portable_builtins_only_load": true,
+    "end_to_end_no_sample_overlap_retained": true,
+    "external_labels_BTC_strings": true,
+    "sample_exact_case_stem_order": true,
+    "sample_predictions_not_used": true,
+    "emitted_ZIP_notebook_fresh_process_replays_identical_CSV": true,
+    "critical_validation_survives_python_optimized_mode": true,
+    "smoke_zip_CRC_and_required_files": true,
+    "portable_global_import_rejected": true,
+    "corrupt_and_16bit_reported_no_guessed_predictions": true,
+    "ambiguous_duplicate_basename_rejected": true,
+    "missing_sample_ID_rejected": true,
+    "unsupported_DICOM_reported": true,
+    "webp_scanned_and_read": true,
+    "failed_rerun_archives_previous_final_artifacts": true,
+    "submit_mode_rejects_working_fixture_root": true
+  },
+  "portable_model_sha256": "eaed5191ad4338c59baca63604e263cbc77d8c720c9c83959267efdeea2186ff",
+  "portable_validation": {
+    "n": 1028,
+    "max_probability_error": 0,
+    "changed_labels": 0,
+    "metrics": {
+      "threshold": 0.55,
+      "Accuracy": 0.9815175097276264,
+      "Sensitivity": 0.9908735332464146,
+      "Specificity": 0.9540229885057471,
+      "F1": 0.9876543209876543,
+      "P": 0.9798918141779546,
+      "TN": 249,
+      "FP": 12,
+      "FN": 7,
+      "TP": 760
+    }
+  },
+  "id_mapping_example": [
+    {
+      "Image_id": "case_004",
+      "relative_path": "CASE_004.png",
+      "match_method": "relative_stem"
+    },
+    {
+      "Image_id": "CASE_002.PNG",
+      "relative_path": "CASE_002.png",
+      "match_method": "relative_case"
+    },
+    {
+      "Image_id": "case_001.png",
+      "relative_path": "CASE_001.png",
+      "match_method": "relative_case"
+    },
+    {
+      "Image_id": "CASE_003",
+      "relative_path": "CASE_003.png",
+      "match_method": "relative_stem"
+    }
+  ],
+  "smoke_zip_entries": [
+    "model.pkl",
+    "smoke01.csv",
+    "submission.ipynb",
+    "submission_metadata.json",
+    "test_file_audit.csv",
+    "test_id_mapping.csv",
+    "input_scan_audit.json",
+    "environment.json"
+  ],
+  "seconds": 103.32364277199997,
+  "environment": {
+    "python": "3.13.15",
+    "numpy": "2.1.3",
+    "pandas": "2.3.3",
+    "pillow": "13.0.0",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "cuda_available": true,
+    "gpu": "Tesla T4",
+    "precision": "float32",
+    "code_version": "pneumoscore_ensemble_export_v1_1"
+  },
+  "official_BTC_Test_executed": false,
+  "no_training": true,
+  "threshold_not_retuned": true
+}

@@ -1,0 +1,5 @@
+model,batch_size,warmup_batches,repetitions,median_batch_ms,p95_batch_ms,amortized_ms_per_image,throughput_images_per_second,scope
+resnet18,1,10,50,3.35195750000139,3.8756097499856423,3.35195750000139,298.33313817361505,"FP32 forward only, input already on GPU, synchronous wall time; not disk/preprocessing"
+ensemble_50_50,1,10,50,4.559732499984648,6.343381400003521,4.559732499984648,219.31111090472234,"FP32 forward only, input already on GPU, synchronous wall time; not disk/preprocessing"
+resnet18,32,10,50,25.96387500000219,26.20278515001928,0.8113710937500684,1232.4816692422569,"FP32 forward only, input already on GPU, synchronous wall time; not disk/preprocessing"
+ensemble_50_50,32,10,50,52.216640000011694,52.448159550021956,1.6317700000003654,612.831465218613,"FP32 forward only, input already on GPU, synchronous wall time; not disk/preprocessing"
